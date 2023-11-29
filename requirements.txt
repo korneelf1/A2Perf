@@ -9,7 +9,10 @@ regex
 gym
 
 # reliabiility
--r rl_perf/metrics/reliability/requirements.txt
+# -r rl_perf/metrics/reliability/requirements.txt
 
-# codecarbon
--r rl_perf/metrics/system/codecarbon/requirements-dev.txt
+# # codecarbon
+# -r rl_perf/metrics/system/codecarbon/requirements-dev.txt
+
+# quadruped
+-r rl_perf/domains/quadruped_locomotion/requirements.txt
