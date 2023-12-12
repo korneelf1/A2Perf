@@ -7,6 +7,8 @@ black
 scipy
 regex
 gym
+mpi4py
+
 
 # reliabiility
 -r rl_perf/metrics/reliability/requirements.txt
