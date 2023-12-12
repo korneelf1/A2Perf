@@ -13,3 +13,6 @@ gym
 
 # codecarbon
 -r rl_perf/metrics/system/codecarbon/requirements-dev.txt
+
+# quadruped
+-r rl_perf/domains/quadruped_locomotion/requirements.txt
