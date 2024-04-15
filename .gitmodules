@@ -1,27 +1,20 @@
-[submodule "web_nav"]
-    path = web_nav
+[submodule "web_navigation"]
+	path = a2perf/domains/web_navigation
     url = https://github.com/Farama-Foundation/a2perf-web-nav.git  # Updated URL
-[submodule "circuit_training"]
-    path = circuit_training
-    url = https://github.com/Farama-Foundation/a2perf-circuit-training.git  # Updated URL
+	branch = farama-dev
 [submodule "quadruped_locomotion"]
-    path = quadruped_locomotion
+	path = a2perf/domains/quadruped_locomotion
     url = https://github.com/Farama-Foundation/a2perf-quadruped-locomotion.git
-[submodule "src/quadruped_locomotion"]
-    path = rl_perf/domains/quadruped_locomotion
-    url = https://github.com/Farama-Foundation/a2perf-quadruped-locomotion.git
-[submodule "src/circuit_training"]
-    path = rl_perf/domains/circuit_training
-    url = https://github.com/Farama-Foundation/a2perf-circuit-training.git  # Updated URL
-[submodule "src/web_nav"]
-    path = rl_perf/domains/web_nav
-    url = https://github.com/Farama-Foundation/a2perf-web-nav.git  # Updated URL
-[submodule "rl_perf/rlperf_benchmark_submission"]
-    path = rl_perf/rlperf_benchmark_submission
+	branch = farama-dev
+[submodule "a2perf_benchmark_submission"]
+	path = a2perf/a2perf_benchmark_submission
     url = https://github.com/Farama-Foundation/a2perf-benchmark-submission.git
-[submodule "rl_perf/metrics/reliability"]
-    path = rl_perf/metrics/reliability
-    url = https://github.com/Farama-Foundation/a2perf-reliability-metrics.git
-[submodule "rl_perf/metrics/system/codecarbon"]
-    path = rl_perf/metrics/system/codecarbon
+	branch = farama/farama-dev
+[submodule "codecarbon"]
+	path = a2perf/metrics/system/codecarbon
     url = https://github.com/Farama-Foundation/a2perf-code-carbon.git
+	branch = farama-dev
+[submodule "circuit_training"]
+	path = a2perf/domains/circuit_training
+	url = https://github.com/Farama-Foundation/a2perf-circuit-training.git
+	branch = farama-dev
